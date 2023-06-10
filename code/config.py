@@ -1,0 +1,14 @@
+data_path_txt = 'data/dataset.txt'
+word_sequence_dict = 'data/ws.pkl'
+load = True
+max_len = 100 
+batch_size = 8
+min_count = 3
+max_count = 5000
+emb_dim = 768
+heads = 8
+num_layers = 6
+epochs = 500
+max_pos = 1800
+d_k = 64
+d_v = 64
